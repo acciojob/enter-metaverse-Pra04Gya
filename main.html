@@ -4,15 +4,15 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<p id="status">Enter the Metaverse</p>
+	<h1 id="status">Enter the Metaverse</h1>
 	<button id="enterBtn">Enter</button>
 
-<script>
-	document.getElementById("enterBtn").addEventListener("click", function() {
-		const statusPara = document.getElementById("status");
-		statusPara.outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
-	});
-</script>
+	<script>
+		document.getElementById("enterBtn").addEventListener("click", function () {
+    const statusElement = document.getElementById("status");
+    statusElement.outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
+});
 
+	</script>
 </body>
 </html>
